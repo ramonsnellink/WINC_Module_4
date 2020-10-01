@@ -29,14 +29,19 @@ removeFirstItemButton.addEventListener("click", () => {
 
 removeAllItemsButton.addEventListener("click", () => {
   //spottedAnimalList
-  const children = spottedAnimalList.getElementsByClassName("spotted-animals-list-item");
+  const animal = spottedAnimalList.getElementsByClassName("spotted-animals-list-item");
 
   console.log(children);
   console.log(spottedAnimalList);
 
   // FIXEN VANAF HIER.
 
-  children.forEach((child) => {
-    spottedAnimalList.removeChild(child);
-  });
+  //   window.emptyList = function () {
+  //     var ul = document.querySelector('.list');
+  //     var listLength = ul.children.length;
+
+  //     for (i = 0; i < listLength; i++) {
+  //       ul.removeChild(ul.children[0]);
+  //     }
+  //   }
 });
