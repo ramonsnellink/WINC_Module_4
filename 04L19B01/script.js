@@ -29,6 +29,5 @@ removeFirstItemButton.addEventListener("click", () => {
 // Remove all items from the list
 
 removeAllItemsButton.addEventListener("click", () => {
-
-
+  spottedAnimalList.innerHTML = "";
 });
